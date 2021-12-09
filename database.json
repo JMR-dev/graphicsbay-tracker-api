@@ -1,89 +1,111 @@
 {
-    "cardData": [
-                { "id": 1,
-                 "oem": "NVIDIA",
-                 "brand": "Asus",
-                 "model": "TUF 3090",
-                 "price": 2499,
-                 "keyPrice": true
-                },
-                {   "id": 2,
-                    "oem": "AMD",
-                    "brand": "XFX",
-                    "model": "Merc 319 6900XT",
-                    "price": 1799,
-                    "keyPrice": true
-                   },
-                   { "id": 3,
-                    "oem": "NVIDIA",
-                    "brand": "EVGA",
-                    "model": "Kingpin Hybrid 3080 Ti",
-                    "price": 1999,
-                    "keyPrice": false
-                   },
-                   { "id": 4,
-                    "oem": "NVIDIA",
-                    "brand": "Asus",
-                    "model": "Dual 3070",
-                    "price": 1200,
-                    "keyPrice": false
-                   },
-                   { "id": 5,
-                    "oem": "NVIDIA",
-                    "brand": "Gigabyte",
-                    "model": "Aorus Eagle 3060",
-                    "price": 699,
-                    "keyPrice": true
-                   },
-                   { "id": 6,
-                    "oem": "AMD",
-                    "brand": "MSI",
-                    "model": "Mech 6600",
-                    "price": 656,
-                    "keyPrice": true
-                   },
-                {"id":7,
-                "oem":"AMD",
-                "brand":"PowerColor",
-                "model":"Red Devil 6800XT",
-                "price":1717,
-                "keyPrice":false
-            },
-            {
-                "id":8,
-                "oem":"NVIDIA",
-                "brand": "Zotac",
-                "model": "Trinity OC LHR 3080",
-                "price":2959,
-                "keyPrice":false
-            },
-            {
-                "id":9,
-                "oem":"AMD",
-                "brand":"PowerColor",
-                "model":"Red Devil 6800",
-                "price":2399,
-                "keyPrice":false
-            },
-            {
-                "id":10,
-                "oem":"NVIDIA",
-                "brand":"MSI",
-                "model":"Ventus OC 3070 Ti",
-                "price":1399,
-                "keyPrice":false
-            }
-
-
-
+    "cardData": [{
+            "id": 1,
+            "oem": "NVIDIA",
+            "brand": "Asus",
+            "model": "TUF 3090",
+            "price": 2499,
+            "keyPrice": true
+        },
+        {
+            "id": 2,
+            "oem": "AMD",
+            "brand": "XFX",
+            "model": "Merc 319 6900XT",
+            "price": 1799,
+            "keyPrice": true
+        },
+        {
+            "id": 3,
+            "oem": "NVIDIA",
+            "brand": "EVGA",
+            "model": "Kingpin Hybrid 3080 Ti",
+            "price": 1999,
+            "keyPrice": false
+        },
+        {
+            "id": 4,
+            "oem": "NVIDIA",
+            "brand": "Asus",
+            "model": "Dual 3070",
+            "price": 1200,
+            "keyPrice": false
+        },
+        {
+            "id": 5,
+            "oem": "NVIDIA",
+            "brand": "Gigabyte",
+            "model": "Aorus Eagle 3060",
+            "price": 699,
+            "keyPrice": true
+        },
+        {
+            "id": 6,
+            "oem": "AMD",
+            "brand": "MSI",
+            "model": "Mech 6600",
+            "price": 656,
+            "keyPrice": true
+        },
+        {
+            "id": 7,
+            "oem": "AMD",
+            "brand": "PowerColor",
+            "model": "Red Devil 6800XT",
+            "price": 1717,
+            "keyPrice": false
+        },
+        {
+            "id": 8,
+            "oem": "NVIDIA",
+            "brand": "Zotac",
+            "model": "Trinity OC LHR 3080",
+            "price": 2959,
+            "keyPrice": false
+        },
+        {
+            "id": 9,
+            "oem": "AMD",
+            "brand": "PowerColor",
+            "model": "Red Devil 6800",
+            "price": 2399,
+            "keyPrice": false
+        },
+        {
+            "id": 10,
+            "oem": "NVIDIA",
+            "brand": "MSI",
+            "model": "Ventus OC 3070 Ti",
+            "price": 1399,
+            "keyPrice": false
+        }
     ],
-    "users":[
-        {"id":1,
-        "name":"defaultUser",
-        "email":"default@default.com"
-    }
+    "users": [{
+            "id": 1,
+            "name": "defaultUser",
+            "email": "default@default.com"
+        },
+        {
+            "name": "Jason",
+            "email": "someone@someone.com",
+            "id": 2
+        }
     ],
-"trackedCards":[
-
-]
+    "newsstories": [{
+            "id": 1,
+            "storyText": "RTX 2060 12GB Production Said to Ramp at the End of December",
+            "link": "https://www.tomshardware.com/news/rtx-2060-12gb-production-ramp-up-end-of-december"
+        },
+        {
+            "id": 2,
+            "storyText": "New Filing Hints at a Memory Upgrade for RTX 3080 and RTX 3070 Ti",
+            "link": "https://www.tomshardware.com/news/new-filing-memory-upgrade-geforce-rtx-3080-rtx-3070-ti"
+        },
+        {
+            "id": 3,
+            "storyText": "Graphics Cards Shipments Hit Three-Year High in Q3 2021: JPR",
+            "link": "https://www.tomshardware.com/news/jpr-q3-2021-desktop-discrete-gpu-shipments"
+        }
+    ],
+    "trackedCards": []
 }
